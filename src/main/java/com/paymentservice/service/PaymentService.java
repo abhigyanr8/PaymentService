@@ -6,6 +6,6 @@ public interface PaymentService {
 
     void processPayment(String event) throws JsonProcessingException;
 
-    void reversePayment(String event) throws JsonProcessingException;
+//    void reversePayment(String event) throws JsonProcessingException;
 
 }

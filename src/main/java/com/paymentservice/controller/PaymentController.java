@@ -28,11 +28,11 @@ public class PaymentController {
 
     }
 
-    @KafkaListener(topics = "reverse-payment", groupId = "payments-group")
-    public void reversePayment(String event) throws JsonProcessingException {
-        log.info("Reverse Payment {}", event);
-        paymentService.reversePayment(event);
-    }
+//    @KafkaListener(topics = "reverse-payment", groupId = "payments-group")
+//    public void reversePayment(String event) throws JsonProcessingException {
+//        log.info("Reverse Payment {}", event);
+//        paymentService.reversePayment(event);
+//    }
 
 
 }

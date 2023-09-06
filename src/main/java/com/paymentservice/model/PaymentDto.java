@@ -12,8 +12,8 @@ import java.util.UUID;
 public class PaymentDto
 {
     private String id;
-    private Mode mode;
-    private int orderId;
+    private String mode;
+    private String orderId;
     private int amount;
     private String status;
 }
